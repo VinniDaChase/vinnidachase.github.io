@@ -69,10 +69,10 @@ h2,h3,h4 {
   overflow: hidden;
   padding: 0 20px;
   position: relative;
-  height: 300px;
+  height: 350px;
 }
 .msgbox-1 .container {
-  padding: 41px 0 29px;
+  padding: 75px 0 29px;
   position: relative;
   z-index: 3;
 }
@@ -1305,11 +1305,12 @@ h2,h3,h4 {
 }
 .mbr-section__left {
   padding-right: 40px;
+  height: 750px !important;
 }
 .mbr-section__right {
   padding-left: 15px;
   background-color: #313340;
-  height: 500px !important;
+  height: 750px !important;
   position: relative;
   left: 4px;
 }
@@ -1855,7 +1856,7 @@ h2,h3,h4 {
   color: #9c9c9c;
   font-size: 14px;
   line-height: 1.7em;
-  padding: 45px 0 46px;
+  padding: 60px 0 46px;
 }
 .mbr-contacts .company_logo span {
   font-size: 24px;
@@ -1885,9 +1886,20 @@ h2,h3,h4 {
 .mbr-contacts__list li {
   margin: 7px 0; 
 }
+.mbr-useful__links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.mbr-useful__links li {
+  margin: 7px 0; 
+}
 .mbr-footer__developer {
   float: right;
   clear: both;
+  margin-top: -20px;
+
 }
 .mbr-footer__developer .glyphicon-heart{
   color: #ed5565;
@@ -2064,10 +2076,11 @@ h2,h3,h4 {
 .mbr-article .brands_title{
   text-align: center;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 90px;
+  margin-bottom: 10px
 }
-.mbr-article .brand_top,.mbr-article .barnd_bottom{
-  margin: 75px 0;
+.mbr-article .brand_top,.mbr-article .barnd_bottom,.mbr-article .brand_others{
+  margin: 50px 0;
 }
 .mbr-article .brand_img {
   width: 150px;
@@ -2166,4 +2179,20 @@ h2,h3,h4 {
 	text-indent: -2400px;
 	text-align: center;
 	padding: 0;
+}
+
+.dashboard {
+  height: 520px;
+}
+.faq-tab {
+  margin: 100px 0;
+}
+/*About Us page*/
+#slide-4 .font-light,#slide-5 .font-light{
+  text-align: left;
+  font-size: 18px;
+}
+#slide-4 .font-thin, #slide-5 .font-thin{
+  margin-bottom: 15px;
+  font-size: 20px;
 }
