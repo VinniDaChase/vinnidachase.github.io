@@ -1479,6 +1479,11 @@ h2,h3,h4 {
   width: 120px !important;
   height: 120px;
 }
+.mbr-box__magnet .product_display {
+  width: 1050px !important;
+  height: 750px;
+  margin-left: -135px;
+}
 .mbr-box__container {
   height: 50%;
 }
