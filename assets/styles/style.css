@@ -63,6 +63,8 @@
 	color: #e4e6e5;
 	padding-top: 90px;
 	margin-top: -65px;
+	margin-bottom: 65px;
+    padding-bottom: 90px;
 }
 
 #slide-4 i {
@@ -74,7 +76,32 @@
 #slide-5 {
 	background-color: #fff;
 	color: #000;
-	padding-top: 90px;
+	padding-top: 0;
+}
+.who-we-are {
+	color: #fff;
+	height: 340px;
+}
+.who-we-are .font-thin{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.clients .brands_title{
+	margin: 85px 0 0 20px;
+	text-align: center;
+}
+
+.clients .brand_img{
+	width: 150px;
+    display: inline;
+    margin: 0 45px;
+}
+.clients .brand_img img{
+	height: 140px;
+}
+.clients .brand_bottom {
+	margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {
